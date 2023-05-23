@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+//react
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useContext } from "react";
+
+//utils
+import { LightModeContext } from "./utils/Context";
+
+//pages
+import HomePage from "./pages/HomePage";
+import Portfolio from "./pages/Portfolio";
+import About from "./pages/Presentation";
+import MenuPage from "./pages/MenuPage";
+import Contact from "./pages/ContactPage";
+
+//components
+import Header from "./components/Header";
+import ScrollToTop from "./components/ScrollToTop";
+import ContactButton from "./components/ContactButton";
+import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const { lightMode } = useContext(LightModeContext);
+    return (
+        <div className={`app ${lightMode && "light-theme"}`}>
+            <BrowserRouter>
+                <Header />
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/menu" element={<MenuPage />} />
+                    <Route path="/portfolio" element={<Portfolio />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/presentation" element={<About />} />
+                </Routes>
+                <Footer />
+                <ScrollToTop />
+                <ContactButton />
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;

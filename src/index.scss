@@ -1,0 +1,27 @@
+//utils
+@import "./styles/utils/variables";
+@import "./styles/utils/mixins";
+@import "./styles/utils/keyframes";
+//base
+@import "./styles/base/base";
+//pages
+@import "./styles/pages/homePage";
+@import "./styles/pages/menuPage";
+@import "./styles/pages/portfolio";
+@import "./styles/pages/presentationPage";
+@import "./styles/pages/contactPage";
+//components
+@import "./styles/components/button";
+@import "./styles/components/menuBurger";
+@import "./styles/components/switchmodebutton";
+@import "./styles/components/card";
+@import "./styles/components/footer";
+@import "./styles/components/header";
+@import "./styles/components/navbar";
+@import "./styles/components/scrollToTopButton";
+@import "./styles/components/contactButton";
+@import "./styles/components/cardprojetcdetails";
+@import "./styles/components/slideshow";
+@import "./styles/components/tag";
+@import "./styles/components/animatedBackground";
+@import "./styles/components/downloadfilebutton";

@@ -1,0 +1,68 @@
+.contact {
+    height: 100vh;
+    @include column-center;
+    z-index: 1;
+
+    &-form {
+        border: 1px solid;
+        width: 90%;
+        max-width: 600px;
+        @include column-center;
+        align-items: flex-start;
+        padding: 10px;
+        z-index: 1;
+
+        &-input {
+            display: flex;
+            width: 100%;
+            margin: 0.7em 0;
+            label {
+                margin: 0 10px;
+                width: 100px;
+                text-align: end;
+            }
+
+            input {
+                width: 70%;
+                border-radius: 3px;
+                border: none;
+                padding: 3px;
+            }
+        }
+
+        &-message {
+            @include column-center;
+            width: 100%;
+
+            label {
+                margin-bottom: 1em;
+            }
+
+            textarea {
+                width: 100%;
+                height: 150px;
+                border-radius: 3px;
+                border: none;
+                padding: 5px;
+            }
+        }
+
+        &-button {
+            width: 100%;
+            text-align: end;
+            margin: 1em 0;
+
+            button {
+                width: 100%;
+                max-width: 100px;
+                padding: 5px;
+                background: transparent;
+                border: 1px solid;
+                &:hover {
+                    background-color: $Orange;
+                    color: $Blue;
+                }
+            }
+        }
+    }
+}

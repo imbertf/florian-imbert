@@ -1,0 +1,93 @@
+nav {
+    @include media(tablette, laptop, desktop) {
+        display: none;
+    }
+}
+
+.burger-menu {
+    display: flex;
+    width: 70%;
+    height: 100vh;
+    border-right: 3px solid $Orange;
+    border-bottom: 3px solid $Orange;
+    background-color: $Blue;
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+    @include column-center;
+    @include media(tablette, laptop, desktop) {
+        display: none;
+    }
+
+    &-icon {
+        font-size: 30px;
+        display: flex;
+        margin: 10px;
+        z-index: 1;
+        position: relative;
+        bottom: 30px;
+        @include media(tablette, laptop, desktop) {
+            display: none;
+        }
+
+        &-open {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            font-size: 30px;
+        }
+    }
+
+    &-link {
+        margin: 1em 0;
+    }
+
+    // &-collapse {
+    //     display: flex;
+    //     align-items: center;
+
+    //     &-icon {
+    //         position: relative;
+    //         top: 1px;
+
+    //         &-down {
+    //             -webkit-animation: rotate-center-reverse 0.3s ease-in-out
+    //                 reverse both;
+    //             animation: rotate-center-reverse 0.3s ease-in-out reverse both;
+    //         }
+
+    //         &-up {
+    //             -webkit-animation: rotate-center 0.3s ease-in-out both;
+    //             animation: rotate-center 0.3s ease-in-out both;
+    //         }
+    //     }
+
+    //     &-menu {
+    //         border: 1px solid;
+    //         position: absolute;
+    //         z-index: 1;
+    //         background: #023047;
+    //         border-radius: 3px;
+    //     }
+
+    //     &-text {
+    //         height: 30px;
+    //         display: flex;
+    //         align-items: center;
+    //         font-size: 15px;
+    //         padding: 0 10px;
+    //         &:hover {
+    //             background-color: $skyBlue;
+    //             color: $Blue;
+    //         }
+    //     }
+
+    //     &-close {
+    //         display: none;
+    //     }
+    // }
+}
+
+.close {
+    display: none;
+}

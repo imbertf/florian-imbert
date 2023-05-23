@@ -1,0 +1,17 @@
+.tag {
+    background-color: $Orange;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 2px;
+    @include media(tablette, laptop) {
+        width: 200px;
+    }
+    @include media(desktop) {
+        width: 220px;
+    }
+
+    p {
+        color: $Blue;
+    }
+}

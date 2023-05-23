@@ -1,0 +1,30 @@
+//medias queries
+@mixin media($keys...) {
+    @each $key in $keys {
+        @media (min-width: map-get($breakpoints, $key)) {
+            @content;
+        }
+    }
+}
+
+//flex
+@mixin column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+//text decoration
+@mixin hover-style(
+    $bg-color: $Orange,
+    $txt-color: $Blue,
+    $shadow-color: $blueGreen
+) {
+    background-color: $bg-color;
+    color: $txt-color;
+    transition: 100ms ease-in;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px $shadow-color;
+    border-radius: 4px;
+}

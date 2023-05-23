@@ -1,0 +1,60 @@
+{
+    "projets": [
+        {
+            "picture": "kasa.png",
+            "name": "Kasa",
+            "url": "https://github.com/imbertf/kasa",
+            "summary": "Créez une application web de location immobilière avec React",
+            "keywords": ["react js", "create react app", "react router"],
+            "icons": ["react", "create-react-app", "react-router"]
+        },
+        {
+            "picture": "piiquante.png",
+            "name": "Piiquante",
+            "url": "https://github.com/imbertf/Piiquante_API",
+            "summary": "Construisez une API sécurisée pour une application d'avis gastronomiques",
+            "keywords": ["node js", "express js", "mongo db", "middlewares"],
+            "icons": ["node-js", "express-js", "mongo-db"]
+        },
+        {
+            "picture": "kanap.png",
+            "name": "Kanap",
+            "url": "https://github.com/imbertf/imbert_florian_kanap_082022",
+            "summary": "Construisez un site e-commerce en JavaScript",
+            "keywords": ["javascript", "e-commerce"],
+            "icons": ["javascript", "e-commerce"]
+        },
+        {
+            "picture": "panthere.png",
+            "name": "La panthère avant audit SEO",
+            "url": "https://imbertf.github.io/laPanthere_original/",
+            "summary": "Optimisez un site web existant",
+            "keywords": ["SEO", "accessibilité"],
+            "icons": ["SEO", "accessibilité"]
+        },
+        {
+            "picture": "lapanthere.png",
+            "name": "La panthère après audit SEO",
+            "url": "https://imbertf.github.io/laPanthere__modification--seo/",
+            "summary": "Optimisez un site web existant",
+            "keywords": ["SEO", "accessibilité"],
+            "icons": ["SEO", "accessibilité"]
+        },
+        {
+            "picture": "ohmyfood.png",
+            "name": "ohmyfood",
+            "url": "https://imbertf.github.io/Ohmyfood/",
+            "summary": "Dynamisez une page web avec des animations CSS",
+            "keywords": ["SASS", "animation CSS3", "intégration HTML5"],
+            "icons": ["SASS", "animation CSS3", "intégration HTML5"]
+        },
+        {
+            "picture": "booki.png",
+            "name": "Kanap",
+            "url": "https://imbertf.github.io/Booki_Imbert_Florian/",
+            "summary": "Transformez une maquette en site web avec HTML & CSS",
+            "keywords": ["HTML5", "CSS3"],
+            "icons": ["HTML5", "CSS3"]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+//colors
+$skyBlue: #8ecae6ff;
+$blueGreen: #219ebcff;
+$Blue: #023047ff;
+$Yellow: #ffb703ff;
+$Orange: #fb8500ff;
+$antiflash-white: #edf2f4ff;
+$black: #000;
+
+//font
+@font-face {
+    font-family: "cooper_hewitt";
+    src: url("./fonts/CooperHewitt-Medium.otf");
+}
+
+//breakpoints
+$breakpoints: (
+    mini: 0px,
+    mobile: 480px,
+    tablette: 768px,
+    laptop: 1024px,
+    desktop: 1200px,
+);

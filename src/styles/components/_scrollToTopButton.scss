@@ -1,0 +1,32 @@
+.scroll-top-button {
+    position: fixed;
+    bottom: 100px;
+    right: -80px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    z-index: 1;
+
+    @include media(tablette, laptop, desktop) {
+        right: -65px;
+        top: 0;
+    }
+
+    p {
+        margin: 0 1em;
+        @include media(tablette, laptop, desktop) {
+            font-size: calc(12px + 0.390625vw);
+        }
+    }
+
+    svg {
+        transform: rotate(270deg);
+        font-size: 25px;
+
+        path {
+            color: $skyBlue;
+        }
+    }
+}

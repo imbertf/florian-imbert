@@ -1,0 +1,58 @@
+.portfolio {
+    &-wrapper {
+        @include media(mobile) {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        @include media(tablette, laptop, desktop) {
+            justify-content: space-evenly;
+        }
+
+        &-anchor {
+            @include media(laptop, desktop) {
+                display: none;
+            }
+        }
+    }
+    &-navbar {
+        margin: 3em 0;
+        @include media(laptop, desktop) {
+            display: none;
+        }
+        @include column-center;
+
+        ul {
+            border: 1px solid $skyBlue;
+            width: 100%;
+            li {
+                list-style-type: none;
+                text-align: center;
+                padding: 10px;
+                &:hover {
+                    background-color: rgba(142, 202, 230, 0.2);
+                }
+            }
+        }
+    }
+
+    &-section {
+        margin-bottom: 3em;
+        padding: 0 1em;
+
+        &-title {
+            margin: 1em 0;
+            width: 100%;
+
+            h2 {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                text-shadow: 0 0 0.2em #fb8500ff, 0 0 0.2em #fb8500ff;
+            }
+        }
+
+        .card {
+            border: 1px solid;
+        }
+    }
+}

@@ -1,0 +1,124 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    h1 {
+        margin: 1em 0;
+        text-align: center;
+        z-index: 1;
+    }
+
+    span {
+        opacity: 0;
+    }
+
+    &-link {
+        z-index: 1;
+    }
+
+    &-btn {
+        border: 1px solid;
+        width: 150px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        animation: appear 2s ease 1500ms forwards;
+        z-index: 1;
+
+        &:hover {
+            @include hover-style($bg-color: $Orange);
+            border: none;
+        }
+    }
+}
+
+.letter01 {
+    animation: appear 2s ease 0000ms forwards;
+    &:hover {
+        @include hover-style;
+    }
+}
+.letter02 {
+    animation: appear 2s ease 100ms forwards;
+    &:hover {
+        @include hover-style;
+    }
+}
+.letter03 {
+    animation: appear 2s ease 200ms forwards;
+    &:hover {
+        @include hover-style;
+    }
+}
+.letter04 {
+    animation: appear 2s ease 300ms forwards;
+    &:hover {
+        @include hover-style;
+    }
+}
+.letter05 {
+    animation: appear 2s ease 400ms forwards;
+    &:hover {
+        @include hover-style;
+    }
+}
+.letter06 {
+    animation: appear 2s ease 500ms forwards;
+    color: $skyBlue;
+    &:hover {
+        @include hover-style($bg-color: $skyBlue);
+    }
+}
+.letter07 {
+    animation: appear 2s ease 600ms forwards;
+    &:hover {
+        @include hover-style;
+    }
+}
+.letter08 {
+    animation: appear 2s ease 700ms forwards;
+}
+.letter09 {
+    animation: appear 2s ease 800ms forwards;
+    color: $Yellow;
+    &:hover {
+        @include hover-style($bg-color: $Yellow);
+    }
+}
+.letter10 {
+    animation: appear 2s ease 900ms forwards;
+    &:hover {
+        @include hover-style;
+    }
+}
+.letter11 {
+    animation: appear 2s ease 1000ms forwards;
+    &:hover {
+        @include hover-style;
+    }
+}
+.letter12 {
+    animation: appear 2s ease 1100ms forwards;
+    color: $Yellow;
+    &:hover {
+        @include hover-style($bg-color: $Yellow);
+    }
+}
+.letter13 {
+    animation: appear 2s ease 1200ms forwards;
+    color: $skyBlue;
+    &:hover {
+        @include hover-style($bg-color: $skyBlue);
+    }
+}
+.letter14 {
+    animation: appear 2s ease 1300ms forwards;
+    &:hover {
+        @include hover-style;
+    }
+}
