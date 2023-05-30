@@ -38,20 +38,20 @@ const Presentation = () => {
                     <p>
                         <span>L'autonomie</span> et la{" "}
                         <span>gestion des priorités</span> développés dans le
-                        secteur de <span>l'hôtellerie-restauration</span>{" "}
+                        secteur de <span>l'hôtellerie restauration</span>{" "}
                         pendant 6 ans
                     </p>
                     <p>
                         La <span>mise en place</span> et le{" "}
-                        <span>suivit de projet</span> en équipe dans le secteur
+                        <span>suivi de projet</span> en équipe dans le secteur
                         de la <span>supply chain</span> et le{" "}
                         <span>transport</span>
                     </p>
                     <p>
-                        Ma <span>curiosité</span> ainsi que mon besoin
-                        <span>d'apprentissage continue</span> ont étés
-                        satisfaits par de nombreux voyages professionnels et
-                        personnels à l'étranger.
+                        Ma <span>curiosité</span> ainsi que mon besoin{" "}
+                        <span>d'apprentissage continu</span> ont été satisfaits
+                        par de nombreux voyages professionnels et personnels à
+                        l'étranger.
                     </p>
                     <p>
                         Le goût du voyage et la découverte de cultures me font
